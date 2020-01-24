@@ -388,7 +388,7 @@ img {
  "subject phone"
  "message message";
   grid-gap: 1.2rem;
-  margin-bottom: 1.2rem; }
+   }
   #contact-a .text-fields .name-input {
     grid-area: name; }
   #contact-a .text-fields .subject-input {
