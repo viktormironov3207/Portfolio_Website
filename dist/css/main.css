@@ -1,14 +1,18 @@
 .fa-twitter {
-  color: steelblue; }
+  color: steelblue;
+  cursor: pointer; }
 
 .fa-facebook {
-  color: blue; }
+  color: blue;
+  cursor: pointer; }
 
 .fa-youtube {
-  color: rgba(255, 0, 0, 0.555); }
+  color: rgba(255, 0, 0, 0.493);
+  cursor: pointer; }
 
 .fa-instagram {
-  color: brown; }
+  color: brown;
+  cursor: pointer; }
 
 .container {
   max-width: 1280px;
@@ -32,7 +36,8 @@
 
 .btn-light {
   color: #333;
-  background-color: #f4f4f4; }
+  background-color: #f4f4f4;
+  border-radius: 8px; }
 
 .btn-dark {
   color: #fff;
@@ -53,7 +58,8 @@ input[class^="btn-"]:hover {
 
 .bg-light {
   background: #f4f4f4;
-  color: #000; }
+  color: #000;
+ }
 
 .bg-medium {
   background: #ccc;
@@ -235,10 +241,10 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: "bioimage bio bio"
+  grid-template-areas:
+ "bioimage bio bio"
  "aw1 aw2 aw3";
   grid-gap: 1.2rem; 
-  height: 350px;
 }
 
 #about-a .bio-image {
